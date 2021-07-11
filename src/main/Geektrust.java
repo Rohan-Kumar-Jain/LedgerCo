@@ -17,7 +17,8 @@ public class Geektrust {
         paymentService = new PaymentService();
 
         try {
-            FileInputStream fis = new FileInputStream("src/input.txt");
+            String filePath = args[0];
+            FileInputStream fis = new FileInputStream(filePath);
             Scanner sc = new Scanner(fis);
 
             while (sc.hasNextLine()) {
