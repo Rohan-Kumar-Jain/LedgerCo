@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.*;
 
 
-public class LedgerCoMain {
+public class Geektrust {
     static UserLoanService userLoanService;
     static PaymentService paymentService;
 
